@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:alpine
+    environment:
+      - POSTGRES_USER=${POSTGRES_DEV_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_DEV_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DEV_DB}
+    ports:
+      - ${POSTGRES_DEV_PORT}:5432

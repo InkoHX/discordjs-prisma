@@ -1,0 +1,15 @@
+{
+  "name": "discordjs-prisma",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/InkoHX/discordjs-prisma.git",
+  "author": "InkoHX <me@inkohx.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prisma/cli": "^2.13.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.13.1",
+    "discord.js": "^12.5.1"
+  }
+}
